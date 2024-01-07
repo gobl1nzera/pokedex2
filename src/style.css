@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+  }
+  
+  body {
+    text-align: center;
+    background: linear-gradient(to bottom, #6ab7f5, #fff);
+    min-height: 100vh;
+  }
+  
+  main {
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+  }
+  .creator {
+    position: absolute;
+    font-weight: 600;
+    color: black;
+    top: 15%;
+    right: 65%;
+    font-size: clamp(8px, 5vw, 20px);
+
+  }
+  
+  
+  .pokedex {
+    width: 100%;
+    max-width: 425px;
+  }
+  
+  .pokemon__image {
+    position: absolute;
+    bottom: 50%;
+    left: 58%;
+    transform: translate(-63%, 20%);
+    height: 22%;
+  }
+  
+  .pokemon__data {
+    position: absolute;
+    font-weight: 600;
+    color: #aaa;
+    top: 58%;
+    right: 20%;
+    font-size: clamp(10px, 5vw, 30px);
+  }
+  
+  .pokemon__name {
+    color: black;
+    text-transform: capitalize;
+  }
+  
+  .form {
+    position: absolute;
+    width: 45%;
+    top: 70%;
+    left: 10%;
+  }
+  
+  .input__search {
+    width: 100%;
+    padding: 4%;
+    outline: none;
+    border: 5px solid #333;
+    border-radius: 40px;
+    font-weight: 600;
+    color: #3a444d;
+    font-size: clamp(8px, 5vw, 1rem);
+    background-color: #f1f1f1;
+  }
+  
+  .buttons1 {
+    position: absolute;
+    bottom: 17%;
+    left: 88%;
+    width: 60%;
+    transform: translate(-52%, 0);
+    display: flex;
+    gap: 5px;
+  }
+  .buttons {
+    position: absolute;
+    bottom: 17%;
+    left: 86%;
+    width: 60%;
+    transform: translate(-52%, 0);
+    display: flex;
+    gap: 20px;
+  }
+
+  
+  .button {
+    width: 20%;
+    padding: 3%;
+    border: 5px solid #000;
+    border-radius: 100px;
+    font-size: clamp(8px, 5vw, 1rem);
+    font-weight: bold;
+    color: black;
+    background-color:#f1f1f1;
+    
+  }
+  .button.btn-prev {
+    padding-top: ;
+    }
+  
+  .button:active {
+    box-shadow: inset -4px 4px 0 #222;
+    font-size: 0.9rem;
+  }
