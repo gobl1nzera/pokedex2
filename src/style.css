@@ -8,7 +8,7 @@
   
   body {
     text-align: center;
-    background: linear-gradient(to bottom, #6ab7f5, #050505);
+    background: linear-gradient(to bottom, #6ab7f5, #ffffff);
     min-height: 100vh;
   }
   
@@ -22,9 +22,9 @@
     position: absolute;
     font-weight: 600;
     color: black;
-    top: 15%;
+    top: 16%;
     right: 65%;
-    font-size: clamp(8px, 5vw, 20px);
+    font-size: clamp(6px, 5vw, 13px);
 
   }
   
@@ -46,9 +46,9 @@
     position: absolute;
     font-weight: 600;
     color: #aaa;
-    top: 58%;
+    top: 56%;
     right: 20%;
-    font-size: clamp(10px, 5vw, 30px);
+    font-size: clamp(9px, 5vw, 27px);
   }
   
   .pokemon__name {
@@ -58,7 +58,7 @@
   
   .form {
     position: absolute;
-    width: 45%;
+    width: 50%;
     top: 70%;
     left: 10%;
   }
@@ -67,48 +67,37 @@
     width: 100%;
     padding: 4%;
     outline: none;
-    border: 5px solid #333;
-    border-radius: 40px;
+    border: 3px solid black;
+    border-radius: 10px;
     font-weight: 600;
-    color: #3a444d;
+    color: #000;
     font-size: clamp(8px, 5vw, 1rem);
     background-color: #f1f1f1;
   }
   
-  .buttons1 {
-    position: absolute;
-    bottom: 17%;
-    left: 88%;
-    width: 60%;
-    transform: translate(-52%, 0);
-    display: flex;
-    gap: 5px;
-  }
+
   .buttons {
     position: absolute;
-    bottom: 17%;
-    left: 86%;
-    width: 60%;
-    transform: translate(-52%, 0);
+    bottom: 11%;
+    left: 42%;
+    width: 50%;
+    transform: translate(-60%, 0);
     display: flex;
-    gap: 20px;
+    gap: 30px;
   }
 
   
   .button {
-    width: 20%;
+    width: 80%;
     padding: 3%;
-    border: 5px solid #000;
-    border-radius: 100px;
+    border: 3px solid #000;
+    border-radius: 20px;
     font-size: clamp(8px, 5vw, 1rem);
     font-weight: bold;
     color: black;
     background-color:#f1f1f1;
     
   }
-  .button.btn-prev {
-    padding-top: ;
-    }
   
   .button:active {
     box-shadow: inset -4px 4px 0 #222;

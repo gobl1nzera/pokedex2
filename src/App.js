@@ -97,7 +97,7 @@ function PokemonApp() {
         <input
           type="text"
           className="input__search"
-          placeholder="Nome ou número Pokemon"
+          placeholder="Nome ou número..."
           value={searchInput}
           onChange={(e) => setSearchInput(e.target.value)}
           required
