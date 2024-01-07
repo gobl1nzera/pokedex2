@@ -30,8 +30,8 @@
   
   
   .pokedex {
-    width: 100%;
-    max-width: 425px;
+    width: 80%;
+    max-width: 300px;
   }
   
   .pokemon__image {
