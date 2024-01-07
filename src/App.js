@@ -98,7 +98,7 @@ function PokemonApp() {
           type="text"
           className="input__search"
           placeholder="Nome ou número..."
-          value={searchInput.toLowerCase}
+          value={searchInput}
           onChange={(e) => setSearchInput(e.target.value)}
           required
         />
