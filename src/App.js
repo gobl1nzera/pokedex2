@@ -62,6 +62,8 @@ function PokemonApp() {
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
+    const lowercaseInput = searchInput.toLowerCase();
+    setSearchInput(lowercaseInput);  // Atualiza o estado com o input em minúsculas
     renderPokemon();
   };
 
